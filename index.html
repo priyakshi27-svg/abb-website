@@ -2,79 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Axom Bikers Brigade (ABB)</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin:0; padding:0; }
-    header { background:#111; color:#fff; padding:20px; text-align:center; }
-    nav a { color:#fff; margin:0 15px; text-decoration:none; }
-    .hero { background:url('abb-banner.jpg') center/cover no-repeat; color:#fff; padding:100px 20px; text-align:center; }
-    .section { padding:40px 20px; max-width:900px; margin:auto; }
-    .rides, .gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
-    .ride-card, .gallery img { border:1px solid #ccc; padding:15px; background:#f9f9f9; }
-    footer { background:#111; color:#fff; text-align:center; padding:20px; }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>Axom Bikers Brigade (ABB)</h1>
+  <!-- Navigation -->
   <nav>
-    <a href="#about">About</a>
-    <a href="#rides">Upcoming Rides</a>
+    <a href="#rides">Rides</a>
     <a href="#gallery">Gallery</a>
     <a href="#contact">Contact</a>
   </nav>
-</header>
 
-<section class="hero">
-  <h2>“We Ride, To Heal, To Feel, To Love, To Communicate, To Touch, To Live, To Fly.”</h2>
-</section>
+  <!-- Rides Section -->
+  <section id="rides">
+    <h1>Upcoming Rides</h1>
+    <div class="ride-card">Ride 1: Guwahati to Shillong</div>
+    <div class="ride-card">Ride 2: Kaziranga Adventure</div>
+  </section>
 
-<section id="about" class="section">
-  <h2>About ABB</h2>
-  <p>🏍️ Welcome to ABB – Axom Bikers Brigade. Founded in 2024 in Bangalore, ABB is a passionate biker community built by people from Assam living outside their home state.</p>
-  <ul>
-    <li>Unity on wheels</li>
-    <li>Empowering women</li>
-    <li>Helping the needy</li>
-    <li>Support each other</li>
-    <li>Spread happiness</li>
-    <li>Ride for causes</li>
-  </ul>
-</section>
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h1>Gallery</h1>
+    <div class="gallery-item">Photo 1</div>
+    <div class="gallery-item">Photo 2</div>
+    <div class="gallery-item">Photo 3</div>
+  </section>
 
-<section id="rides" class="section">
-  <h2>Upcoming Rides</h2>
-  <div class="rides">
-    <div class="ride-card">
-      <h3>Munnar Ride</h3>
-      <p>📅 12th – 14th Sep, 2026</p>
-      <p>Registration: Open</p>
-    </div>
-  </div>
-</section>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h1>Contact Us</h1>
+    <p>Email: abb@example.com</p>
+    <button class="contact-btn">Send Message</button>
+  </section>
 
-<section id="gallery" class="section">
-  <h2>Gallery</h2>
-  <div class="gallery">
-    <img src="ride1.jpg" alt="Ride photo">
-    <img src="ride2.jpg" alt="Ride photo">
-    <img src="ride3.jpg" alt="Ride photo">
-  </div>
-</section>
-
-<section id="contact" class="section">
-  <h2>Contact</h2>
-  <p>Instagram: <a href="https://instagram.com/axombikersbrigade">axombikersbrigade</a></p>
-  <p>Email: <a href="mailto:abb.riders1901@gmail.com">abb.riders1901@gmail.com</a></p>
-  <p>Facebook: axombikersbrigade</p>
-  <p>Phone: <a href="tel:6001043272">6001043272</a>, <a href="tel:8011924030">8011924030</a></p>
-</section>
-
-<footer>
-  <p>© 2026 Axom Bikers Brigade | “Where road ends, Trail begins”</p>
-</footer>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Axom Bikers Brigade</p>
+  </footer>
 
 </body>
 </html>
